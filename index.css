@@ -3,6 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background:rgb(254, 247, 247);
+}
+.wrapper{
+    width:90%;
+    height: 90%;
+    background-color:rgb(245, 238, 238);
+    align-items:center;
+    margin: auto;
+    padding: 10px;
+
+}
 #accordion{
     margin: 100px auto;
     width: 600px;
@@ -11,7 +23,7 @@
     list-style: none;
     width: 100%;
     margin-bottom: 10px;
-    background:grey;
+    background:rgb(214, 204, 204);
     padding:10px;
     border-radius: 4px;
 
@@ -51,4 +63,20 @@ max-height: 400px;
     padding: 30px;
     padding-bottom: 10px;
     font-family: century Gothic;
+}
+@media screen and (max-width:380px) {
+    #accordion{
+        padding: 0 10px;
+    }
+    #title{
+        font-size: 18px;
+        padding: 20px;
+    }
+    #accordion p{
+    font-size: 17px;
+    margin-bottom: 0px;
+    }
+    .wrapper{
+        padding: 0px;
+    }
 }
